@@ -8,6 +8,6 @@ public class Main {
         String raw = "name=Riya;email=riya@sst.edu;phone=9876543210;program=CSE";
         svc.registerFromRawInput(raw);
 
-        printer.printDbDump(repository);;
+        printer.printDbDump(repository);
     }
 }
